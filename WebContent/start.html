@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
+<title>JSP</title></head>
+<body>
+<p>Über dieses Formular können Sie uns Fragen zusenden:<br><br>
+<form name="Kontaktformular" action="send.jsp" method="post">
+<input type="hidden" name="kontakt" value="Internet-Kontaktformular">
+<table border="0">
+<tr>
+<td>Name</td>
+<td><input type="text" name="nachname"></td></tr>
+<tr>
+<td>E-Mail</td>
+<td>
+<input type="text" name="mail"></td></tr>
+<tr>
+<td>Ihre Frage</td>
+<td>
+<textarea name="kommentar" cols="40" rows="5"></textarea></td></tr>
+</table>
+<input type="submit" value="Abschicken">
+<input type="reset" value="Löschen">
+</form>
+</body></html>
