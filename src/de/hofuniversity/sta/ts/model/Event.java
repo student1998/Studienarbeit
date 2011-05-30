@@ -1,10 +1,11 @@
 package de.hofuniversity.sta.ts.model;
 
 import java.util.Date;
-
 public class Event {
 	
+
 	//Veranstaltung beschreibung
+
 	private int eventID;
 	private String title;
 	private String description;
@@ -19,6 +20,10 @@ public class Event {
 	
 	private int viewings;
 	private float rating;
+	
+	public Event (){
+		
+	}
 	
 	public int getEventID() {
 		return eventID;
@@ -87,4 +92,14 @@ public class Event {
 		this.rating = rating;
 	}
 
+	@Override
+	public String toString() {
+		return "Event [eventID=" + eventID + ", title=" + title
+				+ ", description=" + description + ", ticketAmount="
+				+ ticketAmount + ", soldTickets=" + soldTickets + ", status="
+				+ status + ", eventDate=" + eventDate + ", beginDate="
+				+ beginDate + ", endDate=" + endDate + ", viewings=" + viewings
+				+ ", rating=" + rating + "]";
+	}
 }
+

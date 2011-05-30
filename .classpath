@@ -13,6 +13,8 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="C:/java/mysql-connector-java-5.1.16/mysql-connector-java-5.1.16-bin.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/java/mysql-connector-java-5.1.16/mysql-connector-java-5.1.16-bin.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/java/hibernate-distribution-3.6.4.Final/hibernate3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/java/hibernate-distribution-3.6.4.Final/lib/jpa/hibernate-jpa-2.0-api-1.0.0.Final.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

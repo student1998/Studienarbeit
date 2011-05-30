@@ -1,15 +1,24 @@
 package de.hofuniversity.sta.ts.model;
 
 import java.util.Date;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
+@Entity
 public class Commentary {
 
+	private int commentaryID;
 	private String text;
 	private Date date;
 	
+
 	private int userID;
 	private int eventID;
 
+	public Commentary (){
+		
+	}
 	
 	public String getText() {
 		return text;

@@ -13,6 +13,10 @@ public class Ticket {
 	private int userID;
 	private int eventID;
 	
+	public Ticket(){
+		
+	}
+	
 	public int getTicketID() {
 		return ticketID;
 	}
